@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="turtlesim" name="sim" type="turtlesim_node" output="screen"/>
+
+  <node pkg="beginner_tutorials" name="target_generator" type="target_generator.py" output="screen"/>
+
+  <node pkg="rosservice" type="rosservice" name="spawn_turtle2" 
+        args="call --wait /spawn 5.5 10.0 4.71 turtle2"/>
+
+  <node pkg="rosservice" type="rosservice" name="spawn_turtle3" 
+        args="call --wait /spawn 6.5 10.0 4.71 turtle3"/>
+</launch>
