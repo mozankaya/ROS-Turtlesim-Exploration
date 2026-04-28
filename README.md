@@ -65,6 +65,3 @@ rosrun beginner_tutorials explorer.py 1
 ```
 
 Once Turtle 1 starts, the automated sequential exploration will begin!
-
-## 👨‍💻 Author
-**Mehmet Ozan Kaya** Software Engineering Student
